@@ -117,3 +117,43 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+  @media only screen and (max-width: 768px){
+    #page{
+      position: relative;
+    }
+  #paragraph {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    ruby-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:20px;
+  }
+
+  .nav{
+    padding-left: 30px;
+    align-content: center;
+    display: none;
+  }
+
+
+  .header{
+    width: 600px;
+    align-items: center;
+  }
+
+  #sean{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:30px;
+  }
+  .left{
+    display: none;
+  }
+  .breadcrumbs{
+    display: none;
+  }
+}
